@@ -34,7 +34,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 <img width="706" alt="image" src="https://github.com/Likelion-Inha-11/fe-react-clone-coding/assets/64801796/f66baca2-3751-49b8-9b82-a208a627be79">
 
--index.html
+#index.html
  <style>
       body {
        margin: 0px;
@@ -42,7 +42,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
     </style>
 코드를 작성해서 기본 설정된 margin=8 값을 0으로 초기화
 
--navigate.jsx
+#navigate.jsx
 
 import { AiOutlineMenu } from "react-icons/ai";
 import { FiCamera } from "react-icons/fi";
@@ -61,48 +61,67 @@ Button
 *menu 아이콘을 지정하고 이를 둘러싸는 테두리 설정
 
 
--rheader.jsx
+#rheader.jsx
 
 TitleBlock
+*가장 큰 틀 지정, 세로로 flex
 
 MainTitle
+*가장 큰 title 제목
 
 SubTitle
+*부제목
 
 Button
+*Button 틀 지정
 
 MainButton
+*첫번째 버튼
 
 SecondButton
+*두번째 버튼
 
-
--card.jsx
+#card.jsx
 
 CardBlock
+*가장 큰 틀 지정, flex-wrap로 설정해서 카드 3개가 넘어가면 다음열로
+예시 페이지에서는 창 크기를 줄여도 한열에 3개씩 표시되는데 이를 구현하려면 grid를 사용해야하는 것으로 추정,, 다음에 해보겠습니다.
+flex로도 33%씩 나누어 사용하면 한열에 아이템 수를 지정 가능하다.
 
 CardEach
+*카드개별 설정
 
 CardText
+*카드 하단에 들어갈 내용 설정
 
 Thumbnail
+*카드 상단에 들어갈 thumbnail 사진 설정
 
 CardUnder
+*카드 최하단 버튼 부 설정
 
 CardButton
+*하단에 들어갈 버튼 틀
 
 CardButton1
+*하단에 들어갈 첫번째 버튼
 
 CardButton2
+*하단에 들어갈 두번째 버튼
 
 CardTime
+*하단에 들어갈 시간표시 설정
 
-
--footer.jsx
+#footer.jsx
 
 FooterBlock
+*페이지 최하단에 들어갈 Footer의 큰틀 설정
 
 Text1
+*왼쪽에 들어갈 내용설정 및 링크삽입
 
 Text2
+*오른쪽에 들어갈 내용 설정
 
 GoToUp
+*반응형 GoToUp 글자 설정
