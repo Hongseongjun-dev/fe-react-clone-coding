@@ -33,3 +33,76 @@ https://getbootstrap.com/docs/4.3/examples/album/
 (아래는 예시입니다.)
 
 <img width="706" alt="image" src="https://github.com/Likelion-Inha-11/fe-react-clone-coding/assets/64801796/f66baca2-3751-49b8-9b82-a208a627be79">
+
+-index.html
+ <style>
+      body {
+       margin: 0px;
+      }
+    </style>
+코드를 작성해서 기본 설정된 margin=8 값을 0으로 초기화
+
+-navigate.jsx
+
+import { AiOutlineMenu } from "react-icons/ai";
+import { FiCamera } from "react-icons/fi";
+*아이콘 import를 통해 bar에서 사용
+
+Top
+*상위 bar구역 큰틀 지정
+
+Title
+*Ficamera 아이콘과 이름을 묶어서 상위바 왼쪽에 자리시킴
+
+Name
+*이름을 지정, 크기와 margin 결정
+
+Button
+*menu 아이콘을 지정하고 이를 둘러싸는 테두리 설정
+
+
+-rheader.jsx
+
+TitleBlock
+
+MainTitle
+
+SubTitle
+
+Button
+
+MainButton
+
+SecondButton
+
+
+-card.jsx
+
+CardBlock
+
+CardEach
+
+CardText
+
+Thumbnail
+
+CardUnder
+
+CardButton
+
+CardButton1
+
+CardButton2
+
+CardTime
+
+
+-footer.jsx
+
+FooterBlock
+
+Text1
+
+Text2
+
+GoToUp
