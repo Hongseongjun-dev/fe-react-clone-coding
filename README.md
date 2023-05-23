@@ -26,6 +26,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 <img width="1270" src= "public/page1.png">
 <img width="1270" src= "public/page2.png">
+
 # 컴포넌트 계층 구조 
 주된 컴포넌트인 헤더, 푸터, 포토카드(사진과 글이 있는 것), 버튼에 대해 어떤 계층으로 설계했는지 `이곳에` 작성해주세요.
 그리고 자식 컴포넌트 들에 대해서 어떤 의도를 갖고 설계했는지(ex 정렬하기 위해서, border를 주기 위해서 등) 부담없이 간단하게 적으면 됩니다.
